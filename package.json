@@ -3,15 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 10008",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/csg": "^3.2.0",
+    "@react-three/drei": "^9.111.3",
+    "@react-three/fiber": "^8.17.5",
+    "@types/three": "^0.167.2",
+    "babel-plugin-react-compiler": "^0.0.0-experimental-696af53-20240625",
+    "face-api.js": "^0.22.2",
+    "next": "14.2.5",
+    "ngrok": "^5.0.0-beta.2",
+    "quagga": "^0.12.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "react-error-boundary": "^4.0.13",
+    "three": "^0.167.1"
   },
   "devDependencies": {
     "postcss": "^8",
